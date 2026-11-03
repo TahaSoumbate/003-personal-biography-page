@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.125rem;            
+  line-height: 1.6;               
+  color: #1c1b19;
+
+  max-width: 65ch;                
+  margin-inline: auto;            
+  padding-inline: 1rem;           
+  padding-block: 3rem;            
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;              
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin-top: 2.5rem;            
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+
+header {
+  margin-bottom: 3rem;
+}
+
+header p {
+  color: #6b6862;                 
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;           
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+
+blockquote {
+  border-left: 4px solid #b4552d; /* was "brown" — this is your accent colour */
+  padding-left: 1rem;             /* ← padding-left only, not all sides */
+  padding-block: 0.25rem;
+  margin-block: 1.5rem;           /* room above and below the quote */
+  font-style: italic;             /* ← brief requires this */
+  color: #6b6862;
+}
+
+blockquote p {
+  margin-bottom: 0.5rem;
+}
+
+blockquote cite {
+  font-style: normal;             /* ← reset: otherwise italic-on-italic disappears */
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1c1b19;                 /* darker so the attribution reads as separate */
+}
+
+/* ---- Timeline ---- */
+ol {
+  padding-left: 1.5rem;           /* was 15px — markers need room */
+  margin-block: 3rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+time {
+  font-weight: 600;               /* dates stand out from descriptions */
+}
