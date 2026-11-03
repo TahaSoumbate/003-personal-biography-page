@@ -3,7 +3,7 @@
 A long-form "about me" page built as part of a front-end learning path.
 Focus: semantic HTML, heading hierarchy, and readable long-form typography.
 
-**[→ Live demo](https://TahaSoumbate.github.io/personal-biography-page/)**
+**[→ Live demo](https://tahasoumbate.github.io/003-personal-biography-page/)**
 
 
 ## What's in it
@@ -25,9 +25,3 @@ Focus: semantic HTML, heading hierarchy, and readable long-form typography.
 
 Plain HTML and CSS. No frameworks, no build step.
 
-## Run locally
-
-```bash
-git clone https://github.com/TahaSoumbate/personal-biography-page.git
-cd personal-biography-page
-# open index.html in your browser
